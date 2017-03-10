@@ -1,3 +1,39 @@
-body{
-    background: peru;
+* {
+    border: 1px solid red;
+    margin: 10px;
+}
+/*Selector de etiqueta*/
+header {
+    background: blue;
+}
+
+section {
+    background: purple;
+}
+
+/*Selectores descendentes*/
+article h3 {
+    color: green;
+}
+
+/*Selectores de clase*/
+.title-a {
+    background: yellow;
+}   
+
+.title-b {
+    background: salmon;
+}
+
+/*Selectores de id*/
+#header {
+    border: 3px solid black;
+}
+
+#portada {
+    border: 3px solid darkorange; 
+}
+
+#quitarras {
+    border: 3px solid brown; 
 }
